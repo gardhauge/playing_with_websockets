@@ -16,4 +16,3 @@
 //= require bootstrap 
 //= require common
 //= require websocket_rails/main
-
