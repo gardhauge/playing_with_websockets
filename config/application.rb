@@ -29,6 +29,9 @@ module PlayingWithWebsockets
     # autoload lib path
     config.autoload_paths += %W(#{config.root}/lib)
     config.autoload_paths += Dir["#{config.root}/lib/**/"]
+    
+    # for websocket-rails	
+    config.middleware.delete Rack::Lock
 
   end
 end

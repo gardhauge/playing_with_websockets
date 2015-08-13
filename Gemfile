@@ -48,3 +48,6 @@ end
 group :development, :test do
   gem 'sqlite3', '1.3.10'
 end
+
+# WebSockets
+gem 'websocket-rails'
